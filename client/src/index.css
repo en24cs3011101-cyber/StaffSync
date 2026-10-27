@@ -1,0 +1,12 @@
+:root { --ss-ink: #1f2a37; --ss-teal: #0f766e; --ss-teal-dark: #115e59; --ss-bg: #f4f6f5; }
+body { background: var(--ss-bg); color: var(--ss-ink); font-family: 'Segoe UI', system-ui, sans-serif; }
+.ss-nav { background: var(--ss-ink); }
+.ss-nav .navbar-brand { font-weight: 700; letter-spacing: .2px; }
+.ss-nav .nav-link { color: #cbd5e1; }
+.ss-nav .nav-link.active, .ss-nav .nav-link:hover { color: #fff; }
+.btn-primary { background: var(--ss-teal); border-color: var(--ss-teal); }
+.btn-primary:hover, .btn-primary:focus { background: var(--ss-teal-dark); border-color: var(--ss-teal-dark); }
+.card { border: 1px solid #e2e8f0; border-radius: 8px; }
+.stat { font-size: 2rem; font-weight: 700; color: var(--ss-teal); }
+.table thead th { background: #eef2f1; font-weight: 600; }
+.login-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
